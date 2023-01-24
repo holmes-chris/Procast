@@ -6,7 +6,7 @@ import CircularProgress from '@mui/material/CircularProgress';
 export default function Report({background, dailyData, todayData, ratingLabel, rating}) {
 
   const currentDayIndex = (new Date().getDay());
-  const currentMonthIndex = (new Date().getMonth())
+  const currentMonthIndex = (new Date().getMonth());
   //this array is for the daily card component's display
   const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
   //this array is for the current weather display
