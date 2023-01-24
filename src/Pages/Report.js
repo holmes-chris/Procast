@@ -2,14 +2,8 @@ import React, {useState} from 'react';
 import Navbar from "../Components/Navbar.js";
 import DailyCard from "../Components/DailyCard.js";
 import CircularProgress from '@mui/material/CircularProgress';
-import clearDay from "../images/clearDay.mp4"
-import clearNight from "../images/clearNight.mp4"
-import cloudyDay from "../images/cloudyDay.mp4"
-import cloudyNight from "../images/cloudyNight.mp4"
-import rainDay from "../images/rainDay.mp4"
-import rainNight from "../images/rainNight.mp4"
-import snowDay from "../images/snowDay.mp4"
-import snowNight from "../images/snowNight.mp4"
+
+
 
 
 
@@ -36,9 +30,7 @@ export default function Report({background, dailyData, todayData, ratingLabel, r
         <>
           <div id="temperature-container">
             <Navbar className="report-nav" />
-            <video autoPlay muted loop id="myVideo">
-              <source src={background} type="video/mp4" />
-            </video>
+            <img src={background} id="myVideo"/>
             <div className="temperature-content-wrapper">
               <div className="temperature-content">
                   <div className="current-weather-container">
