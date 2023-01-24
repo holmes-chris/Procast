@@ -5,7 +5,6 @@ import LinkIcon from '@mui/icons-material/Link';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import "../About.css"
 
-
 export default function About({getLocation, data, city, setCity, loading}) {
   return (
     <div className="about-container">

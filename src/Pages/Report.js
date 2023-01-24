@@ -3,12 +3,6 @@ import Navbar from "../Components/Navbar.js";
 import DailyCard from "../Components/DailyCard.js";
 import CircularProgress from '@mui/material/CircularProgress';
 
-
-
-
-
-
-
 export default function Report({background, dailyData, todayData, ratingLabel, rating}) {
 
   const currentDayIndex = (new Date().getDay());
@@ -22,7 +16,6 @@ export default function Report({background, dailyData, todayData, ratingLabel, r
   const monthDisplay = monthArray[currentMonthIndex];
   const dateDisplay = new Date().getDate();
   const yearDisplay = new Date().getFullYear();
-  
   
   return (
     <div className="report-container">

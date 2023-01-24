@@ -4,7 +4,6 @@ import "../Contact.css"
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub'
 
-
 export default function Contact() {
   return (
     <div className="contact-container">
